@@ -32,7 +32,7 @@ dependencies:
     condition: sfc-controller.enabled
   - name: flannel
     version: v0.25.1
-    repository: https://flannel-io.github.io/flannel
+    repository: file://charts/flannel
     condition: flannel.enabled
   - name: ovs-helper
     version: "0.1.0"
